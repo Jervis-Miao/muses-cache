@@ -4,12 +4,11 @@
 
 package com.muses.config;
 
-import com.muses.demo.PeopleCache;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.muses.config.spring.EnableMusesCache;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import com.muses.demo.PeopleCache;
 
 /**
  * @author miaoqiang
@@ -22,4 +21,5 @@ public class MusesCacheApplication {
     public static void main(String[] args) {
         SpringApplication.run(MusesCacheApplication.class, args);
     }
+
 }

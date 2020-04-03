@@ -24,19 +24,19 @@ import org.springframework.context.annotation.Bean;
  */
 public class RedissonSentinelConfiguration extends AbstractRedissonConfiguration {
 
-    @Value("${redis.sentinel.ser1.host:192.168.56.89}")
+    @Value("${redis.sentinel.ser1.host}")
     private String ser1Host;
-    @Value("${redis.sentinel.ser2.host:192.168.56.90}")
+    @Value("${redis.sentinel.ser2.host}")
     private String ser2Host;
-    @Value("${redis.sentinel.ser3.host:192.168.56.124}")
+    @Value("${redis.sentinel.ser3.host}")
     private String ser3Host;
-    @Value("${redis.sentinel.ser1.port:26379}")
+    @Value("${redis.sentinel.ser1.port}")
     private String ser1Port;
-    @Value("${redis.sentinel.ser2.port:26379}")
+    @Value("${redis.sentinel.ser2.port}")
     private String ser2Port;
-    @Value("${redis.sentinel.ser3.port:26379}")
+    @Value("${redis.sentinel.ser3.port}")
     private String ser3Port;
-    @Value("${redis.sentinel.lowRel.masterName:low_reliability}")
+    @Value("${redis.sentinel.lowRel.masterName}")
     private String lowRelMasterName;
     @Value("${redis.sentinel.default.readMode:MASTER}")
     private ReadMode readMode;

@@ -1,0 +1,14 @@
+# Redis Sentinel Configuration
+redis:
+  sentinel:
+    lowRel:
+      masterName: low_reliability
+    ser1:
+      host: 192.168.56.89
+      port: 26379
+    ser2:
+      host: 192.168.56.90
+      port: 26379
+    ser3:
+      host: 192.168.56.124
+      port: 26379
