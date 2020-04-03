@@ -9,7 +9,7 @@ import com.muses.cache.CodecFactory;
 import com.muses.cache.constant.RedisCacheConstant;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public class PeopleCacheParam extends CacheParam {

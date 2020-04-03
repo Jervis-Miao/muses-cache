@@ -14,7 +14,7 @@ import com.muses.cache.CacheParam;
  * {@link #getFromCache} {@link #setToCache} {@link #getCacheSetLockKey}
  * </pre>
  *
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/3/4.
  */
 public abstract class AbstractCustomRedisCache<K extends CacheParam, V> extends AbstractRedisCache<K, V> {

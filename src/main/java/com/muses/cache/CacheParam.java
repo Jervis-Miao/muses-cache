@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.redisson.client.codec.Codec;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2018/10/17.
  */
 public class CacheParam {

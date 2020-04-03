@@ -7,7 +7,7 @@ package com.muses.cache.constant;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2019/12/20.
  */
 public interface ICacheEnum {

@@ -16,7 +16,7 @@ import org.springframework.core.annotation.AliasFor;
 import com.muses.cache.AbstractCache;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 @Target(ElementType.TYPE)

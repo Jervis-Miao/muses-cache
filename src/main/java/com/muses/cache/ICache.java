@@ -5,7 +5,7 @@
 package com.muses.cache;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public interface ICache<K, V> {

@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * 哨兵redis
  * 
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public class RedissonSentinelConfiguration extends AbstractRedissonConfiguration {

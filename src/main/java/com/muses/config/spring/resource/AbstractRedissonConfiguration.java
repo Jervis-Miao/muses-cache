@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import org.springframework.context.annotation.Bean;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public abstract class AbstractRedissonConfiguration extends AbstractRedisConfiguration {

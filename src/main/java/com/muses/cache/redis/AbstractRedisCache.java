@@ -15,7 +15,7 @@ import com.muses.cache.IClient;
  * @see org.redisson.api.RedissonClient {@link AbstractCache#redissonClient}
  * </pre>
  *
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/3/4.
  */
 public abstract class AbstractRedisCache<K extends CacheParam, V> extends AbstractCache<K, V> implements IClient {

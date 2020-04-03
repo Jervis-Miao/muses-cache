@@ -9,7 +9,7 @@ import java.io.Serializable;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public class PeopleDTO implements Serializable {

@@ -11,7 +11,7 @@ import com.muses.config.spring.EnableMusesCache;
 import com.muses.demo.PeopleCache;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 @SpringBootApplication

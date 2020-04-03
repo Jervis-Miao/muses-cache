@@ -7,7 +7,7 @@ package com.muses.config.spring.resource;
 import com.muses.config.spring.IResourceConfiguration;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public abstract class AbstractRedisConfiguration implements IResourceConfiguration {

@@ -11,7 +11,7 @@ import org.redisson.codec.FstCodec;
 import org.redisson.codec.JsonJacksonCodec;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public interface RedisCacheConstant {

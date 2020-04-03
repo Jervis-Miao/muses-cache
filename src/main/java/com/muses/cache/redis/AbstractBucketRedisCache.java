@@ -17,7 +17,7 @@ import com.muses.cache.constant.RedisCacheConstant;
  * {@link cn.xyz.io.product.basic.cache.AbstractCache#getFromDB}
  * </pre>
  *
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/3/4.
  */
 public abstract class AbstractBucketRedisCache<K extends CacheParam, V> extends AbstractRedisCache<K, V> {

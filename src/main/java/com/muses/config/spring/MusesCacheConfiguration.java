@@ -19,7 +19,7 @@ import com.muses.config.spring.resource.RedissonSentinelConfiguration;
 import com.muses.config.spring.resource.RedissonSingleConfigure;
 
 /**
- * @author miaoqiang
+ * @author Jervis
  * @date 2020/4/3.
  */
 public class MusesCacheConfiguration implements ImportSelector {

@@ -35,7 +35,7 @@ import com.muses.cache.utils.NamedThreadFactory;
  *
  * @param <K> 参数
  * @param <V> 返回结果
- * @author miaoqiang
+ * @author Jervis
  * @date 2018/10/17.
  */
 public abstract class AbstractCache<K extends CacheParam, V> implements ICache<K, V> {
