@@ -7,6 +7,7 @@ package com.muses.config.cache;
 import com.muses.config.JunitTest;
 import com.muses.demo.PeopleCache;
 import com.muses.demo.PeopleCacheParam;
+import com.muses.demo.PeopleDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -21,6 +22,7 @@ public class PeopleCacheTest extends JunitTest {
 
     @Test
     public void testCacheGet() {
-        System.out.println("我今天遇到一个人, " + peopleCache.get(new PeopleCacheParam(123L)));
+        PeopleDTO peopleDTO = peopleCache.get(new PeopleCacheParam(123L));
+        System.out.println("我今天遇到一个人, " + peopleDTO);
     }
 }

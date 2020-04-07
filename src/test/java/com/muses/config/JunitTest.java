@@ -22,7 +22,5 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 public class JunitTest {
     @BeforeAll
     static void setUp() {
-        // 单元测试redis库
-        System.setProperty("redis.sentinel.default.database", "14");
     }
 }

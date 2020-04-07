@@ -12,3 +12,7 @@ redis:
     ser3:
       host: 192.168.56.124
       port: 26379
+    default:
+      database: 13
+      timeout: 30000
+      connectTimeout: 30000
