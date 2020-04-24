@@ -89,7 +89,7 @@ public abstract class AbstractCache<K extends CacheParam, V> implements ICache<K
             }
 
             // 结果一致性校验
-            if (null == (v)) {
+            if (null != v) {
                 this.checkResultType(cacheParam, v);
             }
 
