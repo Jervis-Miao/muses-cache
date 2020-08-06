@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.cache;
+package com.muses.config.cache.mycache;
 
 import com.muses.config.JunitTest;
 import com.muses.demo.PeopleCache;
