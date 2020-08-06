@@ -2,9 +2,9 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring.resource;
+package com.muses.config.spring.mycache.resource;
 
-import com.muses.config.spring.IResourceConfiguration;
+import com.muses.config.spring.mycache.IResourceConfiguration;
 
 /**
  * @author Jervis

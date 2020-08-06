@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring.resource;
+package com.muses.config.spring.mycache.resource;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Bean;
 
 /**
  * 哨兵redis
- * 
+ *
  * @author Jervis
  * @date 2020/4/3.
  */

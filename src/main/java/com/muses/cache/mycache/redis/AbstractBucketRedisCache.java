@@ -2,13 +2,13 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.cache.redis;
+package com.muses.cache.mycache.redis;
 
 import org.redisson.api.RBucket;
 import org.redisson.client.codec.Codec;
 
-import com.muses.cache.CacheParam;
-import com.muses.cache.constant.RedisCacheConstant;
+import com.muses.cache.mycache.CacheParam;
+import com.muses.cache.mycache.constant.RedisCacheConstant;
 
 /**
  * <pre>

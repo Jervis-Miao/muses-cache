@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring;
+package com.muses.config.spring.mycache;
 
 /**
  * @author Jervis

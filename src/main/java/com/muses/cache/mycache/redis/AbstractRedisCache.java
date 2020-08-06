@@ -2,11 +2,11 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.cache.redis;
+package com.muses.cache.mycache.redis;
 
-import com.muses.cache.AbstractCache;
-import com.muses.cache.CacheParam;
-import com.muses.cache.IClient;
+import com.muses.cache.mycache.AbstractCache;
+import com.muses.cache.mycache.CacheParam;
+import com.muses.cache.mycache.IClient;
 
 /**
  * <pre>

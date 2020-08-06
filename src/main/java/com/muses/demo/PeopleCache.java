@@ -4,7 +4,7 @@
 
 package com.muses.demo;
 
-import com.muses.cache.redis.AbstractBucketRedisCache;
+import com.muses.cache.mycache.redis.AbstractBucketRedisCache;
 
 /**
  * @author Jervis

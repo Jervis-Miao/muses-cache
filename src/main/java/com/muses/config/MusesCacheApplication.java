@@ -7,7 +7,8 @@ package com.muses.config;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.muses.config.spring.EnableMusesCache;
+import com.muses.config.spring.jetcache.EnableMusesJetCacheLocal;
+import com.muses.config.spring.mycache.EnableMusesCache;
 import com.muses.demo.PeopleCache;
 
 /**
@@ -16,6 +17,7 @@ import com.muses.demo.PeopleCache;
  */
 @SpringBootApplication
 @EnableMusesCache({PeopleCache.class})
+@EnableMusesJetCacheLocal
 public class MusesCacheApplication {
 
     public static void main(String[] args) {

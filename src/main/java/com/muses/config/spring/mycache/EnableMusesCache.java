@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring;
+package com.muses.config.spring.mycache;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.annotation.AliasFor;
 
-import com.muses.cache.AbstractCache;
+import com.muses.cache.mycache.AbstractCache;
 
 /**
  * @author Jervis

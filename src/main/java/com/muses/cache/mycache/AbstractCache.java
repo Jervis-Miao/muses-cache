@@ -2,7 +2,7 @@
  * Copyright 2016 Focus Technology, Co., Ltd. All rights reserved.
  */
 
-package com.muses.cache;
+package com.muses.cache.mycache;
 
 import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
@@ -20,8 +20,8 @@ import org.redisson.api.RedissonClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.muses.cache.constant.RedisCacheConstant;
-import com.muses.cache.utils.NamedThreadFactory;
+import com.muses.cache.mycache.constant.RedisCacheConstant;
+import com.muses.cache.mycache.utils.NamedThreadFactory;
 
 /**
  * <pre>

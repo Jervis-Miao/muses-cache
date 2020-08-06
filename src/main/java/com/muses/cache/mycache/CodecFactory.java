@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.cache;
+package com.muses.cache.mycache;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.cache;
+package com.muses.cache.mycache;
 
 /**
  * @author Jervis
@@ -12,7 +12,7 @@ public interface IClient<K, V> {
 
     /**
      * 增
-     * 
+     *
      * @param key
      * @param value
      */

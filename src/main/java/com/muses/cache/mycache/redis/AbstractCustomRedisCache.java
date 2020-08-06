@@ -2,9 +2,9 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.cache.redis;
+package com.muses.cache.mycache.redis;
 
-import com.muses.cache.CacheParam;
+import com.muses.cache.mycache.CacheParam;
 
 /**
  * <pre>

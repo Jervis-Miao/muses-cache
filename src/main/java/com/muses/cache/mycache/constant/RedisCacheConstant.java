@@ -2,12 +2,11 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.cache.constant;
+package com.muses.cache.mycache.constant;
 
 import java.util.concurrent.TimeUnit;
 
 import org.redisson.client.codec.Codec;
-import org.redisson.codec.FstCodec;
 import org.redisson.codec.JsonJacksonCodec;
 
 /**

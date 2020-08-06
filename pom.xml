@@ -23,6 +23,8 @@
         <redisson.version>3.10.3</redisson.version>
         <!-- redisson fstCodec序列化依赖 -->
         <fst.version>2.57</fst.version>
+        <!-- jetcache -->
+        <jetcache.version>2.5.14</jetcache.version>
     </properties>
 
     <!-- 项目自定义的依赖管理 -->
@@ -63,6 +65,13 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-to-slf4j</artifactId>
+        </dependency>
+
+        <!-- cache -->
+        <dependency>
+            <groupId>com.alicp.jetcache</groupId>
+            <artifactId>jetcache-starter-redis</artifactId>
+            <version>${jetcache.version}</version>
         </dependency>
 
         <!-- redisson -->

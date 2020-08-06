@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring.resource;
+package com.muses.config.spring.mycache.resource;
 
 import org.redisson.client.codec.StringCodec;
 import org.redisson.codec.FstCodec;

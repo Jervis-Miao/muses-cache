@@ -2,7 +2,7 @@
  * Copyright 2016 Focus Technology, Co., Ltd. All rights reserved.
  */
 
-package com.muses.cache;
+package com.muses.cache.mycache;
 
 import java.util.concurrent.TimeUnit;
 

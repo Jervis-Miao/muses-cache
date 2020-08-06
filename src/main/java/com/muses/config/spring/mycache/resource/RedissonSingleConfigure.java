@@ -2,11 +2,11 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring.resource;
+package com.muses.config.spring.mycache.resource;
 
 /**
  * 单机redis
- * 
+ *
  * @author Jervis
  * @date 2020/4/3.
  */

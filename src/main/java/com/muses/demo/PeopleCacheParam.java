@@ -4,9 +4,9 @@
 
 package com.muses.demo;
 
-import com.muses.cache.CacheParam;
-import com.muses.cache.CodecFactory;
-import com.muses.cache.constant.RedisCacheConstant;
+import com.muses.cache.mycache.CacheParam;
+import com.muses.cache.mycache.CodecFactory;
+import com.muses.cache.mycache.constant.RedisCacheConstant;
 
 /**
  * @author Jervis

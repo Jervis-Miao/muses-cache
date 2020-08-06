@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package com.muses.config.spring;
+package com.muses.config.spring.mycache;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -14,9 +14,9 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 
-import com.muses.config.spring.EnableMusesCache.ResourceConfiguration;
-import com.muses.config.spring.resource.RedissonSentinelConfiguration;
-import com.muses.config.spring.resource.RedissonSingleConfigure;
+import com.muses.config.spring.mycache.EnableMusesCache.ResourceConfiguration;
+import com.muses.config.spring.mycache.resource.RedissonSentinelConfiguration;
+import com.muses.config.spring.mycache.resource.RedissonSingleConfigure;
 
 /**
  * @author Jervis
@@ -47,7 +47,7 @@ public class MusesCacheConfiguration implements ImportSelector {
      * @return
      */
     private List<String> getCacheBeans(Map<String, Object> attributes) {
-        Class[] cacheClasses = (Class[])attributes.get("cacheClasses");
+        Class[] cacheClasses = (Class[]) attributes.get("cacheClasses");
         if (ArrayUtils.isEmpty(cacheClasses)) {
             return new ArrayList<>(2);
         }
@@ -56,12 +56,12 @@ public class MusesCacheConfiguration implements ImportSelector {
 
     /**
      * 获取缓存数据源class名称
-     * 
+     *
      * @param attributes
      * @return
      */
     private String getResourceConfigurationBean(Map<String, Object> attributes) {
-        ResourceConfiguration resource = (ResourceConfiguration)attributes.get("resource");
+        ResourceConfiguration resource = (ResourceConfiguration) attributes.get("resource");
         switch (resource) {
             case REDISSON_SINGLE_REDIS:
                 return RedissonSingleConfigure.class.getName();

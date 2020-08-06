@@ -16,3 +16,60 @@ redis:
       database: 13
       timeout: 30000
       connectTimeout: 30000
+
+# JetCache
+jetcache:
+  # 全局配置开始
+  # 统计间隔，0表示不统计
+  statIntervalMinutes: 15
+  #jetcache-anno把cacheName作为远程缓存key前缀，2.4.3以前的版本总是把areaName加在cacheName中，因此areaName也出现在key前缀中。2.4.4以后可以配置，为了保持远程key兼容默认值为true，但是新项目的话false更合理些。
+  areaInCacheName: false
+  hiddenPackages:
+    - com.muses.cache.jetcache
+    - com.muses.config.spring.jetcache
+  # 全局配置结束
+  # 本地缓存配置开始
+  local:
+    # 默认缓存区
+    default:
+      # 缓存类型。本地缓存支持: linkedhashmap|caffeine; 远程缓存支持: tair|redis
+      type: caffeine
+      # key转换器的全局配置，当前只有一个已经实现的keyConvertor：fastjson。仅当使用@CreateCache且缓存类型为LOCAL时可以指定为none，此时通过equals方法来识别key。方法缓存必须指定keyConvertor
+      keyConvertor: fastjson
+      # 每个缓存实例的最大元素的全局配置，仅local类型的缓存需要指定。注意是每个缓存实例的限制，而不是全部，比如这里指定100，然后用@CreateCache创建了两个缓存实例（并且注解上没有设置localLimit属性），那么每个缓存实例的限制都是100
+      limit: 100
+      # 以毫秒为单位指定超时时间的全局配置(以前为defaultExpireInMillis)
+      expireAfterWriteInMillis: 60000
+      # 以毫秒为单位，指定多长时间没有访问，就让缓存失效，当前只有本地缓存支持。0表示不使用这个功能。
+      expireAfterAccessInMillis: 30000
+    # 其他缓存区
+    otherArea:
+      type: caffeine
+      keyConvertor: fastjson
+      limit: 100
+      expireAfterWriteInMillis: 60000
+      expireAfterAccessInMillis: 30000
+  # 本地缓存配置结束
+  # 远程缓存配置开始
+  remote:
+    default:
+      type: redis
+      keyConvertor: fastjson
+      # 序列化器的全局配置。仅remote类型的缓存需要指定，可选java|kryo
+      valueEncoder: kryo
+      valueDecoder: kryo
+      poolConfig:
+        minIdle: 5
+        maxIdle: 20
+        maxTotal: 50
+      database: 15
+      # redis 哨兵模式
+      sentinels: 192.168.56.89:26379,192.168.56.90:26379,192.168.56.124:26379
+      masterName: low_reliability
+      # redis 单机模式(同时配置优先取哨兵配置 com.alicp.jetcache.autoconfigure.RedisAutoConfiguration#parsePool)
+      # host: 192.168.56.89
+      # port: 6379
+  # 远程缓存配置结束
+
+
+
