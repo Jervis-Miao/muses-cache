@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config.spring.jetcache;
+package cn.muses.cache.config.jetcache;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -2,17 +2,16 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config.redisson;
+package cn.muses.cache.redisson;
 
 import java.util.concurrent.TimeUnit;
 
+import cn.muses.cache.JunitTest;
 import org.junit.jupiter.api.Test;
 import org.redisson.api.RBucket;
 import org.redisson.api.RScoredSortedSet;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import cn.muses.config.JunitTest;
 
 /**
  * @author miaoqiang

@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config.spring.mycache.resource;
+package cn.muses.cache.config.mycache.resource;
 
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;

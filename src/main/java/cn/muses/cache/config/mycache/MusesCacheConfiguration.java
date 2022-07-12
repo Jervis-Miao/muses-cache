@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config.spring.mycache;
+package cn.muses.cache.config.mycache;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,12 +10,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import cn.muses.config.spring.mycache.resource.RedissonSentinelConfiguration;
+import cn.muses.cache.config.mycache.resource.RedissonSingleConfigure;
+import cn.muses.cache.config.mycache.resource.RedissonSentinelConfiguration;
 import org.apache.commons.lang3.ArrayUtils;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
-
-import cn.muses.config.spring.mycache.resource.RedissonSingleConfigure;
 
 /**
  * @author Jervis

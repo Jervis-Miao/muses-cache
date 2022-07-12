@@ -2,18 +2,17 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config.cache.mycache;
+package cn.muses.cache.mycache;
 
 import javax.annotation.Resource;
 
 import org.junit.jupiter.api.Test;
 
-import cn.muses.cache.mycache.AbstractCache;
 import cn.muses.cache.mycache.redis.AbstractBucketRedisCache;
-import cn.muses.config.JunitTest;
-import cn.muses.demo.PeopleCache;
-import cn.muses.demo.PeopleCacheParam;
-import cn.muses.demo.PeopleDTO;
+import cn.muses.cache.JunitTest;
+import cn.muses.cache.demo.PeopleCache;
+import cn.muses.cache.demo.PeopleCacheParam;
+import cn.muses.cache.demo.PeopleDTO;
 
 /**
  * @author Jervis

@@ -2,7 +2,7 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.demo;
+package cn.muses.cache.demo;
 
 import java.io.Serializable;
 

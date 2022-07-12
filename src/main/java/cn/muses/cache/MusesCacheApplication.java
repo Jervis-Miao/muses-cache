@@ -2,11 +2,11 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config;
+package cn.muses.cache;
 
-import cn.muses.config.spring.jetcache.EnableMusesJetCacheLocal;
-import cn.muses.config.spring.mycache.EnableMusesCache;
-import cn.muses.demo.PeopleCache;
+import cn.muses.cache.config.mycache.EnableMusesCache;
+import cn.muses.cache.config.jetcache.EnableMusesJetCacheLocal;
+import cn.muses.cache.demo.PeopleCache;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

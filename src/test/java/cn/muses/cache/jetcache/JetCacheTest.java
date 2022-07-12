@@ -2,12 +2,12 @@
  * Copyright 2019 All rights reserved.
  */
 
-package cn.muses.config.cache.jetcache;
+package cn.muses.cache.jetcache;
 
 import java.util.concurrent.TimeUnit;
 
-import cn.muses.config.JunitTest;
-import cn.muses.demo.PeopleDTO;
+import cn.muses.cache.JunitTest;
+import cn.muses.cache.demo.PeopleDTO;
 import org.junit.jupiter.api.Test;
 
 import com.alicp.jetcache.Cache;
