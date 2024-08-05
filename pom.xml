@@ -20,7 +20,7 @@
     <!-- 版本配置 -->
     <properties>
         <!-- redisson依赖，一款架设在redis基础上的java驻内存数据网格 -->
-        <redisson.version>3.10.3</redisson.version>
+        <redisson.version>3.22.0</redisson.version>
         <!-- redisson fstCodec序列化依赖 -->
         <fst.version>2.57</fst.version>
         <!-- jetcache -->
